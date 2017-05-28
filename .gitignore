@@ -1,0 +1,3 @@
+*.so
+*.o
+bc_flags

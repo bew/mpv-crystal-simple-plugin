@@ -1,0 +1,9 @@
+name: mpv-crystal-simple-plugin
+version: 0.1.0
+
+authors:
+  - bew <lesell_b@epitech.eu>
+
+description: |
+   The is a simple plugin in crystal for MPV music player (mpv.io)
+
