@@ -28,4 +28,8 @@ class MPV::Handler
 
     MPV::Event.new LibMPV.wait_event(@mpv, timeout)
   end
+
+  def to_unsafe
+    @mpv
+  end
 end

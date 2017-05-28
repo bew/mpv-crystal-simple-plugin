@@ -12,6 +12,10 @@ class MPV::Event
     event.to_s io
   end
 
+  def to_unsafe
+    @event
+  end
+
   private def event
     @event.value # NOTE: will this make a copy of the C struct?
   end
