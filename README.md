@@ -36,7 +36,7 @@ To clean the repository, and re-build the plugin.
 Once you have your custom `mpv` build and the plugin's shared library, you can run test it with:
 
 ```sh
-$ ./mpv /path/to/media/file  --script /path/to/plugin.so
+$ /path/to/custom/mpv /path/to/media/file  --script ./mpv-crystal-simple-plugin.so
 ```
 
 ## Contributing
