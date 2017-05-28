@@ -1,0 +1,3 @@
+require "./spec_helper"
+
+# I have no idea how to test this...
